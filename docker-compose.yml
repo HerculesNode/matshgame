@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  environment:
+    container_name: environment
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 5555:5555
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: node app.js
