@@ -1,7 +1,7 @@
 {
-  "name": "matshgame",
-  "version": "1.0.1",
-  "description": "Hercules  Matsh game",
+  "name": "matshgamet",
+  "version": "1.0.3",
+  "description": "hercules Node.js matsh game ",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -11,10 +11,23 @@
   "type": "git",
   "url": "https://github.com/HerculesNode/matshgame.git"
    },
-  "author": "Hercules",
-  "license": "MIT",
+    "keywords": [
+    "game",
+    "regex",
+    "matsh",
+    "games",
+    "international",
+    "global",
+    "google"   
+  ],
   "dependencies": {
     "express":"latest",
     "ejs":"latest"
-  }
+  },
+  "author": "Hercules",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HerculesNode/matshgame/issues"
+  },
+  "homepage": "https://github.com/HerculesNode/matshgame#readme"
 }
