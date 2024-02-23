@@ -1,6 +1,6 @@
 {
   "name": "matshgamet",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "hercules Node.js matsh game ",
   "main": "app.js",
   "scripts": {
