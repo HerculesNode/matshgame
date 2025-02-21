@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: dockerfile
     ports:
-      - 5555:5555
+      - 6356:6356
     stdin_open: true
     environment:
       - CHOKIDAR_USEPOLLING=true
